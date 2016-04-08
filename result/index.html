@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Тестовое задание на должность Front-end developer</title>
+	
+  <!-- bower:css -->
+  <link rel="stylesheet" href="vendor/normalize-css/normalize.css" />
+  <link rel="stylesheet" href="vendor/jScrollPane/style/jquery.jscrollpane.css" />
+  <!-- endbower -->
+	
+	<!-- свои стили -->
+	<link rel="stylesheet" href="css/style.min.css" />
+	
+	<!-- bower:js -->
+	<script src="vendor/jquery/dist/jquery.js"></script>
+	<script src="vendor/jScrollPane/script/jquery.mousewheel.js"></script>
+	<script src="vendor/jScrollPane/script/mwheelIntent.js"></script>
+	<script src="vendor/jScrollPane/script/jquery.jscrollpane.js"></script>
+	<script src="vendor/jScrollPane/script/jquery.jscrollpane.min.js"></script>
+	<script src="vendor/jquery-mousewheel/jquery.mousewheel.js"></script>
+	<!-- endbower -->
+	
+	<!-- свои скрипты -->
+	<script type="text/javascript" src="js/common.js"></script>
+	
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="btn-wrapper">
+		<button class="btn-wrapper__btn">Пригласить</button>
+	</div>
+</div>
+
+<div class="main">
+	<div class="main-wrapper">
+		<div class="header">
+			<span class="header__title">Выберите людей, чтобы пригласить их на «Соревнования Workout»</span>
+		</div>
+		<div class="column">
+			<input class="column__search" type="text" placeholder="Поиск людей (работает!)"><img class="column__search-img" src="images/search.jpg" alt="">
+			<div class="column__scrollable">
+				<div class="users-wrapper">
+					<div class="single-user">
+						<img class="single-user__face" src="images/user1.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Елизавета Данилова</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user2.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Валерия Лопастцева</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user3.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Sergey Martynov</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user4.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Nika Htozkaya</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user5.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Мариэль Славская</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user6.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Andrey Gritsay</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Неизвестный юзер1</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Неизвестный юзер2</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Неизвестный юзер3</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+				</div>
+		  </div>
+		  <div class="column__scrollable">
+				<div class="users-wrapper">
+					<div class="single-user">
+						<img class="single-user__face" src="images/user7.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Имперский штурмовик</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user8.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Дарт Вейдер</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user9.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Чубакка</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user10.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Кайло Рен</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user11.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Люк Скайвокер</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user12.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Рэй</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user13.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Хан Соло</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user14.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Принцесса Лея</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+					<div class="single-user">
+						<img class="single-user__face" src="images/user15.jpg" alt="user">
+						<img class="single-user__arrow" src="images/arrow.jpg" alt="">
+						<img class="single-user__close" src="images/close.jpg" alt="">
+						<div  class="single-user__name">Дарт Сидиус</div>
+						<span  class="single-user__info" data-info="Поток 1 Поток 2 Поток 3 Поток 4 Поток 5">
+							5 общих потоков 
+						</span>
+					</div>
+				</div>
+		  </div>
+		</div>
+		<div class="column column_right">
+			<div class="column__scrollable2">
+			
+		  </div>
+		</div>
+		<div class="changer">
+			<div class="changer__item1 tab">Друзья</div>
+			<div class="changer__item2 tab">Учасники потока</div>
+		</div>
+		<button class="close-all">Добавить людей</button>
+	</div>
+</div>
+
+</body>
+</html>

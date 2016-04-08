@@ -1,0 +1,10 @@
+{
+  "name": "type_some_name_here",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "normalize-css": "normalize.css#^4.0.0",
+    "jScrollPane": "jscrollpane#^2.0.23",
+    "jquery-mousewheel": "^3.1.13"
+  }
+}
