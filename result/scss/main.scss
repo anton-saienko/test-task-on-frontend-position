@@ -101,6 +101,8 @@ width:100%;
 color: $color_5; 
 }
 .column{
+position:relative;
+z-index:9;
 height:330px;
 width:296px;
 background-color:$color_4;
