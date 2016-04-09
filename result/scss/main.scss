@@ -27,7 +27,7 @@ right: 0;
 .btn-wrapper{
 height: 100%;
 display: -ms-flexbox;
--ms-flexpack: center;
+-ms-flex-pack: center;
 -ms-flex-align:center;
 display: -webkit-box;
 display: -webkit-flex;
@@ -65,7 +65,7 @@ z-index:2;
 visibility:hidden;
 /*ie10*/
 display: -ms-flexbox;
--ms-flexpack: center;
+-ms-flex-pack: center;
 -ms-flex-align:center;
 display:flex;
 display: -webkit-box;
@@ -83,7 +83,7 @@ height:60px;
 color:$color_1;
 /*ie10*/
 display: -ms-flexbox;
--ms-flexpack: center;
+-ms-flex-pack: center;
 -ms-flex-align:center;
 display: -webkit-inline-box;
 display: -moz-inline-box;
